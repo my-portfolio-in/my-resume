@@ -18,8 +18,8 @@ export class IntroComponent implements OnInit {
   }
 
   downloadPdf() {
-    const pdfUrl = './assets/resume/Arunachaladinesh_Resume.pdf';
-    const pdfName = 'Arunachaladinesh_Resume';
+    const pdfUrl = './assets/resume/Arunachaladinesh_resume.pdf';
+    const pdfName = 'Arunachaladinesh_resume';
     FileSaver.saveAs(pdfUrl, pdfName);
   }
 
