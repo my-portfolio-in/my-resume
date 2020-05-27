@@ -1,0 +1,19 @@
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-down">
+      <h1>Arunachaladinesh</h1>
+      <ngx-typed-js [strings]="['Web Designer.', 'Web Developer.']" [backSpeed]="50" [backDelay]="2000" [shuffle]="true" [typeSpeed]="100"  [loop]="true">
+      <p>I'm a <span class="typing"></span></p>
+    </ngx-typed-js>
+    <div class="pt-20 pb-20 pr-108 pl-40">
+      <div class="row">
+        <div class="col-6 clearfix">
+          <button type="button" (click)="downloadPdf()" class="button button-outline">Download My-resume!</button>
+        </div>
+        <div class="col-6" (click)="getActiveTab('contact')" [class.active]="activetab === 'contact'">
+          <button type="button" routerLink="/contact"  class="button button-outline">Contact Me!</button>
+        </div>
+      </div>  
+    </div>
+    </div>
+  </section><!-- End Hero -->
